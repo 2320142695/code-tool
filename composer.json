@@ -1,7 +1,7 @@
 {
     "name": "cxx/code-tool",
     "description": "Some of the code tools you use",
-    "type": "project",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
