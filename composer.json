@@ -1,0 +1,18 @@
+{
+    "name": "cxx/code-tool",
+    "description": "Some of the code tools you use",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "cxx",
+            "email": "cxx2320@foxmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+           "Cxx\\Codetool\\": "src/"
+        }
+    }
+}
