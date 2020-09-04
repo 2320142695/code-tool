@@ -11,6 +11,11 @@ trait Singleton
 {
     protected static $_instance;
 
+    /**
+     * 获取单例
+     *
+     * @return static
+     */
     final public static function getInstance()
     {
         if (!isset(self::$_instance)) {
@@ -25,6 +30,11 @@ trait Singleton
         $this->init();
     }
 
+    /**
+     * 初始化，需要实现此方法进行第一次初始化
+     *
+     * @return void
+     */
     protected function init()
     {
     }
