@@ -1,12 +1,12 @@
 <?php
+declare(strict_types=1);
 
 namespace Cxx\Codetool\Traits;
 
 /**
  * 单例模式
- * 可以通过trait机制快速实现一个单例模式
+ * 可以通过trait机制快速实现一个单例模式（没有做严格的防止复制功能，但实现了缓存功能）
  */
-
 trait Singleton
 {
     protected static $_instance;

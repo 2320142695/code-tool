@@ -9,7 +9,9 @@
             "email": "cxx2320@foxmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "psr/event-dispatcher": "^1.0"
+    },
     "autoload": {
         "psr-4": {
            "Cxx\\Codetool\\": "src/"
