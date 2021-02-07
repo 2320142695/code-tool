@@ -7,6 +7,7 @@ use think\Config;
 use think\Loader;
 
 /**
+ * 基于tp5的模型扩展，可以记录模型修改前后的数据
  * 使模型具有记录快照的功能
  */
 trait Snapshot
